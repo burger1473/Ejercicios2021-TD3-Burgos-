@@ -14,6 +14,15 @@ typedef enum{
 
 estadoMEF estadoActual, estadoAnterior; // Variable de estado (global)
 
+void botonPresionado( void )
+{
+    printf("Boton presionado\n");
+}
+
+void botonLiberado( void )
+{
+    printf("Boton liberado\n");
+}
 
 
 void Pulsador_init(int8_t PULSADOR)
@@ -74,15 +83,6 @@ void Actualizar_estado(int8_t PULSADOR)
       break;
    }
 
-void botonPresionado( void )
-{
-    printf("Boton presionado\n");
-}
-
-void botonLiberado( void )
-{
-    printf("Boton liberado\n");
-}
     
 }
 

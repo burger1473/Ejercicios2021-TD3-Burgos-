@@ -26,8 +26,7 @@ void app_main() {
 	
    //Bucle infinito 
     while(1) {
-		printf("Escribo en serial\n");
-		
+        
         Actualizar_estado(PULSADOR);
         vTaskDelay(10/ portTICK_PERIOD_MS); //Espero 10 milisegundo
 		
