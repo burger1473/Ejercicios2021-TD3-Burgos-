@@ -5,9 +5,6 @@
  * Pin 4 led red
  * Pin 2 led amarillo
  * Pin 14 led verde
- * Pin 16 Pull Up interno
- * Pin 16=1 -> Modo normal
- * Pin 16=0 -> Modo intermitente
  *===========================================================================*/
 
 #include <stdio.h>
@@ -31,9 +28,10 @@ void app_main() {
 	
    //Bucle infinito 
     while(1) {
-		//printf("Escribo en serial\n");
+		printf("Escribo en serial2\n");
 		
         Semaforo_siclo(); //hago un siclo del semaforo
+        
     }
 
 }
