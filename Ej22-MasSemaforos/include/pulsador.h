@@ -1,0 +1,31 @@
+#ifndef PULSADOR_H_
+#define PULSADOR_H_
+/*==================[ Inclusiones ]============================================*/
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+#include "driver/gpio.h"
+#include "freertos/semphr.h" //Libreria para uso de semaforo
+#include <stdint.h>
+extern SemaphoreHandle_t semaforo;
+/*==================[ Definiciones ]===================================*/
+#define TIEMPO_NO_VALIDO   0
+
+typedef enum
+{
+    ALTO,
+    BAJO,
+    DESCENDENTE,
+    ASCENDENTE
+} estadoPulsador;
+
+typedef struct
+{
+    gpio_int_type_t tecla;
+    estadoPulsador estado;   //variables
+} pulsadorInfo;
+
+/*==================[Prototipos de funciones]======================*/
+void inicializarPulsador( void );
+
+#include "../main/pulsador.c"
+#endif
