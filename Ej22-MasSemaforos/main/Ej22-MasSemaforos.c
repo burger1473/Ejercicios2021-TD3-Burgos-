@@ -1,7 +1,8 @@
 /*=============================================================================
  * Author: Fabian Burgos
  * Date: 10/05/2021 
- * Board: ESP32-CAM 
+ * Board: ESP32-CAM
+ * Ide: IDF 
  * Pin 4 led VERDE
  * Pin 16 led Rojo
  * Pin 14 Pulsador
