@@ -5,8 +5,8 @@
  * Ide: IDF 
  * Pin 4 led A
  * Pin 16 led B
- * Pin 14 Pulsador Incremento
- * Pin 15 pulsador Decremento
+ * Pin 12 Pulsador Incremento
+ * Pin 13 pulsador Decremento
  *===========================================================================*/
 
 /*==================[ Inclusiones ]============================================*/
