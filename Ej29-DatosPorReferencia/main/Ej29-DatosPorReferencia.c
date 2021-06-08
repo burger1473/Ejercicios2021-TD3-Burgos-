@@ -1,6 +1,6 @@
 /*=============================================================================
  * Author: Fabian Burgos
- * Date: 31/05/2021 
+ * Date: 07/06/2021 
  * Board: ESP32-CAM
  * Ide: IDF 
  * Pin 16 led -> se modifica en este archivo
